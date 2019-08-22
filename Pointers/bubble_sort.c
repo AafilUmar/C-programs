@@ -1,3 +1,4 @@
+/*Program to bubble sort an array only using pointer*/
 #include<stdio.h>
 void array_print(int *,int);
 void bubble_sort(int *,int);
@@ -18,11 +19,11 @@ printf("%d ",p[j]);
 }
 printf("\n");
 }
+/*definition of the function bubble sort*/
 void bubble_sort(int *p,int n)
 {
 int i,j,t,*q;
 q=p;
-
 for(i=0;i<n;i++)
 {
 for(j=0;j<n-i;j++)
